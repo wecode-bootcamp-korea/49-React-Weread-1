@@ -1,8 +1,12 @@
 import React from "react";
+import "./Main.css";
 
-function Main() {
-    return <h1>Hello World</h1>;
-    
+const Main = () => {
+  return (
+    <div className="main">
+      <div>메인페이지</div>
+    </div>
+  );
 };
 
 export default Main;
