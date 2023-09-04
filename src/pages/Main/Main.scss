@@ -1,0 +1,44 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.comming {
+  display: flex;
+  flex-direction: column;
+}
+.joinOn {
+  font-size: larger;
+  font-weight: bolder;
+}
+.base {
+  display: flex;
+  justify-content: space-between;
+}
+
+.empw {
+  display: flex;
+  flex-direction: column;
+}
+.Num1 {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
