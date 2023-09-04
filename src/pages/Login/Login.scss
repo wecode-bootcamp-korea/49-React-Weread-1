@@ -1,0 +1,75 @@
+.login {
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .loginbox{
+    padding-top: 40px;
+      margin: auto;
+      
+  }
+  .input_id{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input_password{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input_passwordcheck{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nicknamebox{
+    padding-top: 40px;
+    margin: auto;
+  }
+  
+  
+  
+  .nickname{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phonenumber{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phonebox{
+  padding-top: 40px;
+  display:flex;
+  }
+  .birthdaybox{
+    padding-top: 40px;
+    margin: auto;
+  }
+  
+  .birthday{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
