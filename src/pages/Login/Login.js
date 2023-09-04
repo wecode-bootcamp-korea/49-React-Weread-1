@@ -15,7 +15,7 @@ const Login = () => {
     setPw(event.target.value); 
   };
 
-  
+  const isInputValid = id.includes('@') && pw.length >= 5  
 
   return (
     <div className="login">
@@ -26,7 +26,7 @@ const Login = () => {
         <div className="container">
             <input className="input_wrap1" type="text" placeholder="이메일" onChange={saveUserld} required/>
             <input className="input_wrap2" type="password" placeholder="비밀번호" onChange={saveUserPw} required/>
-            <button className="login_btn" type="button">로그인</button>
+            <button className={isInputValid ? "loginBtn" : "loginBtnDisabled"} disabled={isInputValid ? false : true} type="button">로그인</button>
         </div>
         <div className="login_option">
           <p className="">회원 가입</p>
