@@ -1,0 +1,56 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.loginBtn {
+  width: 407px;
+  height: 40px;
+  margin: 10px;
+  color: white;
+  background-color: blue;
+  font-size: large;
+  border-radius: 5px;
+  text-align: center;
+  display: inline;
+}
+.one {
+  text-align: center;
+  margin: 20px;
+}
+.two {
+  text-align: center;
+  margin-bottom: 150px;
+}
+.contents {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  .joinBtn,
+  .findPasswordBtn {
+    border: none;
+    background-color: transparent;
+    display: flex;
+  }
+}
