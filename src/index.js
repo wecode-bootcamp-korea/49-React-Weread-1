@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Router from './Router';
+//import Login from "./pages/Login/Login";
+import Main from './pages/Main/Main'
+//import Router from './Router';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Router />);
+root.render(<Main />);
+//root.render(<Router />);
+
